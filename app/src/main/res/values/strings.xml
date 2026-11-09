@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Курсы валют</string>
+
+    <!-- Экран входа -->
+    <string name="login_title">Курсы валют</string>
+    <string name="login_subtitle">Актуальные курсы по данным Currate API</string>
+    <string name="login_card_title">Вход в приложение</string>
+    <string name="login_card_subtitle">Введите имя и пароль — данные сохранятся в SharedPreferences в формате JSON</string>
+    <string name="hint_name">Имя пользователя</string>
+    <string name="hint_password">Пароль</string>
+    <string name="action_login">Войти</string>
+    <string name="error_name_empty">Введите имя пользователя</string>
+    <string name="error_password_empty">Введите пароль</string>
+    <string name="error_password_short">Пароль должен быть не короче 4 символов</string>
+    <string name="login_saved_hint">Привет, %1$s! Данные авторизации уже сохранены.</string>
+
+    <!-- Главный экран -->
+    <string name="greeting">Здравствуйте, %1$s!</string>
+    <string name="greeting_subtitle">Выберите валютную пару и получите актуальный курс</string>
+    <string name="request_title">Запрос курса</string>
+    <string name="hint_pair">Валютная пара</string>
+    <string name="pair_helper">Формат: USDRUB, EURRUB, CNYRUB…</string>
+    <string name="action_fetch">Получить курс</string>
+    <string name="loading">Загрузка…</string>
+    <string name="action_save">Сохранить в базу</string>
+    <string name="action_saved_rates">Сохранённые курсы</string>
+    <string name="result_title">Результат запроса</string>
+    <string name="result_json_label">Ответ API (JSON)</string>
+    <string name="rate_template">1 %1$s = %2$s %3$s</string>
+    <string name="rate_item">%1$s %2$s</string>
+    <string name="rate_source">Источник: %1$s</string>
+    <string name="error_pair_format">Пара должна состоять из 6 латинских букв, например USDRUB</string>
+    <string name="error_api">Ошибка API: %1$s</string>
+    <string name="saved_success">Курс сохранён в базу</string>
+
+    <!-- Выход -->
+    <string name="logout">Выйти</string>
+
+    <!-- Сохранённые курсы -->
+    <string name="saved_title">Сохранённые курсы</string>
+    <string name="saved_empty">Пока нет сохранённых курсов.\nПолучите курс на главном экране или добавьте вручную.</string>
+    <string name="action_add">Добавить</string>
+    <string name="action_edit">Изменить</string>
+    <string name="action_delete">Удалить</string>
+    <string name="action_cancel">Отмена</string>
+    <string name="action_save_short">Сохранить</string>
+    <string name="dialog_add_title">Новый курс</string>
+    <string name="dialog_edit_title">Изменить курс</string>
+    <string name="hint_rate">Курс</string>
+    <string name="hint_note">Комментарий</string>
+    <string name="error_rate">Введите число, например 79,4213</string>
+    <string name="error_pair">Введите валютную пару, например USDRUB</string>
+    <string name="delete_title">Удалить запись?</string>
+    <string name="delete_message">Курс %1$s будет удалён из базы данных.</string>
+    <string name="delete_yes">Удалить</string>
+    <string name="deleted">Запись удалена</string>
+</resources>

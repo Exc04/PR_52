@@ -1,0 +1,48 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.CurrencyRates" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/green_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/green_100</item>
+        <item name="colorOnPrimaryContainer">@color/green_900</item>
+        <item name="colorSecondary">@color/gold_500</item>
+        <item name="colorOnSecondary">@color/ink</item>
+        <item name="colorSecondaryContainer">@color/gold_100</item>
+        <item name="colorOnSecondaryContainer">@color/ink</item>
+        <item name="android:colorBackground">@color/surface_light</item>
+        <item name="colorSurface">@color/white</item>
+        <item name="colorOnSurface">@color/ink</item>
+        <item name="colorOnSurfaceVariant">@color/ink_light</item>
+        <item name="colorOutline">@color/line</item>
+        <item name="colorError">@color/error</item>
+        <item name="android:statusBarColor">@color/surface_light</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="Theme.CurrencyRates" parent="Base.Theme.CurrencyRates" />
+
+    <!-- Заголовки карточек -->
+    <style name="TextAppearance.CurrencyRates.CardTitle" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Моноширинный текст для JSON -->
+    <style name="TextAppearance.CurrencyRates.Json" parent="TextAppearance.Material3.BodySmall">
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:textSize">11sp</item>
+    </style>
+
+    <!-- Кнопки -->
+    <style name="Widget.CurrencyRates.Button" parent="Widget.Material3.Button">
+        <item name="android:letterSpacing">0.02</item>
+        <item name="cornerRadius">14dp</item>
+        <item name="android:paddingTop">14dp</item>
+        <item name="android:paddingBottom">14dp</item>
+    </style>
+
+    <style name="Widget.CurrencyRates.Button.Outlined" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="cornerRadius">14dp</item>
+        <item name="android:paddingTop">14dp</item>
+        <item name="android:paddingBottom">14dp</item>
+    </style>
+</resources>

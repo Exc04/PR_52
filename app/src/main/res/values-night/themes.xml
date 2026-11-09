@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.CurrencyRates" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">#4CD7A0</item>
+        <item name="colorOnPrimary">#003828</item>
+        <item name="colorPrimaryContainer">#0B4F3C</item>
+        <item name="colorOnPrimaryContainer">#B9F2DD</item>
+        <item name="colorSecondary">#E3C55C</item>
+        <item name="colorOnSecondary">#3B2F00</item>
+        <item name="colorSecondaryContainer">#544400</item>
+        <item name="colorOnSecondaryContainer">#FFF1C1</item>
+        <item name="android:colorBackground">@color/surface_dark</item>
+        <item name="colorSurface">@color/surface_dark_card</item>
+        <item name="colorOnSurface">#E3ECE7</item>
+        <item name="colorOnSurfaceVariant">#A9BBB3</item>
+        <item name="colorOutline">#2C3E36</item>
+        <item name="colorError">#FFB4AB</item>
+        <item name="android:statusBarColor">@color/surface_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+</resources>

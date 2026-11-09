@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?attr/selectableItemBackground"
+    app:cardCornerRadius="18dp"
+    app:cardElevation="1dp"
+    app:strokeColor="?attr/colorOutline"
+    app:strokeWidth="1dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="16dp"
+        android:paddingTop="14dp"
+        android:paddingEnd="8dp"
+        android:paddingBottom="14dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/pairText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="?attr/colorOnSurface"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                tools:text="USDRUB" />
+
+            <TextView
+                android:id="@+id/rateText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:textColor="?attr/colorPrimary"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                tools:text="79,4213 RUB" />
+
+            <TextView
+                android:id="@+id/noteText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:textColor="?attr/colorOnSurfaceVariant"
+                android:textSize="13sp"
+                android:visibility="gone"
+                tools:text="Курс на утро"
+                tools:visibility="visible" />
+
+            <TextView
+                android:id="@+id/dateText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:textColor="?attr/colorOnSurfaceVariant"
+                android:textSize="11sp"
+                tools:text="08.11.2026 14:35" />
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/editButton"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/action_edit"
+            android:src="@drawable/ic_edit" />
+
+        <ImageButton
+            android:id="@+id/deleteButton"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/action_delete"
+            android:src="@drawable/ic_delete" />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>
